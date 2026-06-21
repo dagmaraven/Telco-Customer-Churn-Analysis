@@ -36,7 +36,7 @@ To improve scalability, data integrity, and reporting performance, the original 
 
 * **Fact Table:** `Fact_Churn`.
 * **Dimension Tables:** `Dim_Demographics`, `Dim_Services`, `Dim_Contracts`.
-* **Relationship Design:** Strict **One-to-many (1)** relationships, optimized for analytical reporting and DAX calculations.
+* **Relationship Design:** Strict **One-to-many (1:N)** relationships, optimized for analytical reporting and DAX calculations.
 
 ---
 
