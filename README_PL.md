@@ -19,6 +19,11 @@ Zbiór zawiera informacje demograficzne, subskrybowane usługi, szczegóły umó
 
 ---
 
+## Podgląd Raportu
+![Podgląd Dashboardu](Telco%20Customer%20Churn%20Analysis%20Preview.jpg)
+
+---
+
 ## Struktura Projektu i Przebieg Prac
 ### 1. Przygotowanie i Czyszczenie Danych (Python)
 Dane zostały oczyszczone, zmodyfikowane i przetworzone za pomocą języka Python i biblioteki **Pandas**. 
