@@ -35,11 +35,11 @@ Kluczowe kroki inżynierii danych objęły:
 ---
 
 ### 2. Modelowanie Danych (Power BI)
-W celu zapewnienia skalowalności, spójności i najwyższej wydajności raportu, pierwotna płaska tabela została przekształcona w **Model Gwiazdy**.
+W celu zapewnienia skalowalności, spójności danych oraz wysokiej wydajności raportowania, pierwotna płaska tabela została przekształcona w **Model Gwiazdy**.
 
 * **Tabela Faktów:** `Fact_Churn`.
 * **Tabele Wymiarów:** `Dim_Demographics`, `Dim_Services`, `Dim_Contracts`.
-* **Projekt relacji:** Zastosowano  relacje **Jeden do wielu (1:N)**, w pełni zoptymalizowane pod kątem filtrowania analitycznego i kalkulacji DAX.
+* **Model relacji:** Zastosowano  relacje **Jeden do wielu (1:N)**, w pełni zoptymalizowane pod kątem filtrowania analitycznego i kalkulacji DAX.
 
 ---
 
@@ -51,7 +51,7 @@ Kluczowe funkcje dashboardu obejmują:
 * Analizę wskaźnika churn w zależności od stażu klienta.
 * Analizę wskaźnika churn w zależności od typu umowy.
 * Analizę wskaźnika churn w zależności od metody płatności.
-* Analizę stopnia adaptacji usług przez klientów.
+* Analizę wykorzystania usług przez klientów.
 * Bieżące monitorowanie utraconych przychodów (revenue loss).
 
 ---
@@ -90,10 +90,10 @@ Klienci płacący za pomocą Electronic Check (czek elektroniczny) wykazywali za
 **Rekomendacja:**
 * Promowanie rejestracji w usłudze automatycznych płatności (AutoPay).
 * Oferowanie drobnych korzyści (np. jednorazowy upust) za przejście na płatności automatyczne.
-* Maksymalne uproszczenie procesów płatności w celu redukcji tzw. barier transakcyjnych.
+* Uproszczenie procesu płatności w celu ograniczenia barier transakcyjnych.
 
 ---
 
 ## Narzędzia i Technologie
 * **Python:** Pandas, NumPy, Matplotlib, Seaborn
-* **Power BI Desktop:** Power Query, Modelowanie struktury Star Schema, DAX (Data Analysis Expressions)
+* **Power BI Desktop:** Power Query, Star Schema Modeling, DAX (Data Analysis Expressions)
